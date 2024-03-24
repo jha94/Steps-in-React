@@ -1,0 +1,45 @@
+
+.stepsWrapper{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: rgb(214, 214, 18);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    height: 2px;
+    width: 50px;
+    background-color: rgb(214, 214, 18);
+}
+
+.colored{
+    background-color: rgb(8, 205, 8);
+}
+
+.stepsIndicator{
+    display: flex;
+    margin: 50px 0px;
+}
+
+.step{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.next{
+    margin-left: 20px;
+    height: 40px;
+    width: 80px;
+}
